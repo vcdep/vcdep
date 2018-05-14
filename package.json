@@ -2,7 +2,7 @@
   "name": "vcdep",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vcdep.github.io",
+  "homepage": "https://vcdep.com",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.3.2",

@@ -34,7 +34,7 @@ export default class About extends Component {
           kicked off from a notification from the version control system that a
           change has been made to the project. This tells Jenkins to start
           testing by using Docker to create the necessary containers based off
-          of the config.json file. If all of the tests pass, the version control
+          of the config.json file. If all the tests pass, the version control
           system's main branch is updated with the new changes made and the
           staging environment is also updated so QA testing can be done. If one
           of the test fails, the entire process is terminated and the developer

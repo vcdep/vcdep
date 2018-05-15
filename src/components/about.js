@@ -12,7 +12,11 @@ export default class About extends Component {
           of tools for instructors to use to facilitate teaching students
           Continuous Delivery concepts.
           <figure className="figure">
-            <img src="./images/cdep_overview.png" alt="CDEP System's flow" />
+            <img
+              src="./images/cdep_overview.png"
+              className="figure-img img-fluid"
+              alt="CDEP System's flow"
+            />
             <figcaption class="figure-caption text-center">
               Overview of how the CDEP system works.
             </figcaption>
@@ -38,8 +42,22 @@ export default class About extends Component {
           system's main branch is updated with the new changes made and the
           staging environment is also updated so QA testing can be done. If one
           of the test fails, the entire process is terminated and the developer
-          is notified. Pilot Study:{' '}
-          <a href="https://ieeexplore.ieee.org/document/8166682/">here</a> CDEP:{' '}
+          is notified.
+          <figure className="figure">
+            <img
+              src="./images/vcdep_overview.png"
+              className="figure-img img-fluid"
+              alt="VCDEP System's flow"
+            />
+            <figcaption class="figure-caption text-center">
+              Overview of how the VCDEP system works.
+            </figcaption>
+          </figure>
+          <br />
+          Pilot Study:{' '}
+          <a href="https://ieeexplore.ieee.org/document/8166682/">
+            here
+          </a> CDEP:{' '}
           <a href="https://dl.acm.org/citation.cfm?id=3077301">here</a>
         </p>
       </div>

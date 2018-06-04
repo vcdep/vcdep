@@ -60,17 +60,17 @@ export default class About extends Component {
           <br />
           The above figure shows the flow of data for the VCDEP system. With the
           VCDEP system, a student first launches the VCDEP application and
-          inputs all of the information about their project. Once all of the
+          inputs all the information about their project. Once all the
           information is entered, the application starts polling the VCDEP
           server, which stores the most recent build of the CDEP system for
           their project. The student then makes a change to their project and
           commits it to their version control server, in our case it is GitHub.
           The CDEP system detects the change and follows the first figure's flow
-          of events as discussed previously. The VCDEP server is notfied once
+          of events as discussed previously. The VCDEP server is notified once
           the CDEP system finishes the build and VCDEP server collects that
           build's logfile. With the logfile collected, the next time the
           student's application polls the VCDEP server it will be given the new
-          logfile that contains all of the information the student needs. The
+          logfile that contains all the information the student needs. The
           information is parsed on the student's application and then animations
           and scripts are displayed to the student to help them understand what
           took place.

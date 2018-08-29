@@ -17,7 +17,7 @@ export default class Download extends Component {
         <Row>
           <Card className="mt-3">
             <CardHeader tag="h3">
-              Continuous Delivery Educational Pipeline (CDEP)
+              Visual Continuous Delivery Educational Pipeline (VCDEP) Setup
             </CardHeader>
             <CardBody>
               <CardTitle>What is it?</CardTitle>
@@ -27,14 +27,14 @@ export default class Download extends Component {
                 about continuous delivery. Currently allows for both PHP and
                 Java applications to be used on the system. Already created and
                 setup PHP and Java projects that can be used with the CDEP
-                system can be found here for PHP and here for Java. The full
-                documentation on how to use this application can be found at its
-                GitHub Repo{' '}
-                <a href="https://github.com/ncoop57/jenkins_server_setup">
-                  here
-                </a>.
+                system can be found{' '}
+                <a href="https://github.com/vcdep/php_activity">here</a> for PHP
+                and <a href="https://github.com/vcdep/java_activity">here</a>{' '}
+                for Java. The full documentation on how to use this application
+                can be found at its GitHub Repo{' '}
+                <a href="https://github.com/vcdep/vcdep_setup">here</a>.
               </CardText>
-              <Button color="primary" href="./files/cdep.zip" download>
+              <Button color="primary" href="./files/vcdep_setup.zip" download>
                 Download
               </Button>
             </CardBody>
@@ -52,11 +52,13 @@ export default class Download extends Component {
                 JavaFX and SceneBuilder to accomplish this. The full
                 documentation on how to use this application can be found at its
                 GitHub Repo{' '}
-                <a href="https://github.com/ncoop57/super_penguin_galaxy">
-                  here
-                </a>.
+                <a href="https://github.com/vcdep/vcdep_application">here</a>.
               </CardText>
-              <Button color="primary" href="./files/vcdep.zip" download>
+              <Button
+                color="primary"
+                href="./files/vcdep_application.zip"
+                download
+              >
                 Download
               </Button>
             </CardBody>
@@ -79,11 +81,15 @@ export default class Download extends Component {
                 linking the repositories to Jenkins and preloading the
                 repositories with a given activity. The full documentation on
                 how to use this application can be found at its GitHub Repo{' '}
-                <a href="https://github.com/UWF-HMCSE-CS/DevOps_ConfigurationTools/tree/wizard">
+                <a href="https://github.com/vcdep/student_repository_creator">
                   here
                 </a>.
               </CardText>
-              <Button color="primary" href="./files/src.zip" download>
+              <Button
+                color="primary"
+                href="./files/student_repository_creator.zip"
+                download
+              >
                 Download
               </Button>
             </CardBody>
